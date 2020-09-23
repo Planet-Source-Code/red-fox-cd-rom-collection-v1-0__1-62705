@@ -1,0 +1,127 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\CD-ROM\CD-ROM Collection V1.0
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\RICHTX32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+E:\CD-ROM\images\main.bmp=
+E:\CD-ROM\images\myicon.ico=
+E:\CD-ROM\images\red_fox.bmp=
+E:\CD-ROM\images\view.bmp=
+E:\CD-ROM\help\main.rtf=
+E:\CD-ROM\help\view.rtf=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\CD-ROM\Project1.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\WINDOWS\system32\MSADODC.OCX=Yes
+D:\WINDOWS\system32\MSDATGRD.OCX=Yes
+D:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+D:\WINDOWS\system32\msbind.dll=Yes
+D:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\CD-ROM\images\main.bmp=Yes
+E:\CD-ROM\images\myicon.ico=Yes
+E:\CD-ROM\images\red_fox.bmp=Yes
+E:\CD-ROM\images\view.bmp=Yes
+E:\CD-ROM\help\main.rtf=Yes
+E:\CD-ROM\help\view.rtf=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\CD-ROM\Project1.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+D:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+D:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+D:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\CD-ROM\images\main.bmp=$(AppPath)\images
+E:\CD-ROM\images\myicon.ico=$(AppPath)\images
+E:\CD-ROM\images\red_fox.bmp=$(AppPath)\images
+E:\CD-ROM\images\view.bmp=$(AppPath)\images
+E:\CD-ROM\help\main.rtf=$(AppPath)\help
+E:\CD-ROM\help\view.rtf=$(AppPath)\help
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\CD-ROM\Project1.exe=No
+E:\CD-ROM\images\main.bmp=No
+E:\CD-ROM\images\myicon.ico=No
+E:\CD-ROM\images\red_fox.bmp=No
+E:\CD-ROM\images\view.bmp=No
+E:\CD-ROM\help\main.rtf=No
+E:\CD-ROM\help\view.rtf=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=CD-ROM Collection V1.0
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=CD-ROM Collection V1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|CD-ROM Collection V1.0]
+Icon1=Project1.exe
+Title1=CD-ROM Collection V1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\CD-ROM\CD-ROM Collection V1.0
+ProjectFolder=E:\CD-ROM
+ServerSideCab=
+File1=E:\CD-ROM\CD-ROM Collection V1.0\setup.exe
+File2=E:\CD-ROM\CD-ROM Collection V1.0\Setup.Lst
+File3=E:\CD-ROM\CD-ROM Collection V1.0\Project1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
